@@ -9,13 +9,13 @@ if(sinal == '*'):
 elif(sinal == '+'):
  print(num1 + num2)
 elif(sinal == '-'):
-    print(num1 - num2)
+ print(num1 - num2)
 elif(sinal == '/'):
-    print(num1 / num2)
+ print(num1 / num2)
 elif(sinal == '%'):
-    print(num1 % num2)
+ print(num1 % num2)
 elif(sinal == '**'):
-    print(num1 ** num2)
+ print(num1 ** num2)
 else:
     print('Por favor digite um simbolo valido!!')
 print('Obrigado!!')
