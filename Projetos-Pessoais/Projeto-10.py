@@ -1,6 +1,7 @@
 # Jogo de adivinhação !!
 
 import random
+import os
 
 novo_jogo = 's'
 
@@ -30,3 +31,6 @@ while novo_jogo == 's':
     
     novo_jogo = input('Deseja Jogar outra vez? S para sim, outra tecla para não: ')
     novo_jogo = novo_jogo.lower()
+
+    # Limpar a Tela 
+    os.system('cls')
