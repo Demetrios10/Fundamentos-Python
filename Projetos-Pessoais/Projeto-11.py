@@ -5,17 +5,17 @@ num2 = int(input('Digite segundo numero: '))
 sinal = input('Digite sinal: ')
 
 if(sinal == '*'):
- print(num1 * num2)
+ print(f'\nnum1 * num2 =', (num1 * num2))
 elif(sinal == '+'):
- print(num1 + num2)
+ print(f'\nnum1 + num2 =', (num1 + num2))
 elif(sinal == '-'):
- print(num1 - num2)
+ print(f'\nnum1 - num2 =', (num1 - num2))
 elif(sinal == '/'):
- print(num1 / num2)
+ print(f'\nnum1 / num2 =', (num1 / num2))
 elif(sinal == '%'):
- print(num1 % num2)
+ print(f'\nnum1 % num2 =', (num1 % num2))
 elif(sinal == '**'):
- print(num1 ** num2)
+ print(f'num1 ** num2 =', (num1 ** num2))
 else:
     print('Por favor digite um simbolo valido!!')
 print('Obrigado!!')
