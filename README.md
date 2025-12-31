@@ -1,1 +1,1 @@
-Olá sou analista de testes e estou iniciando os estudos na Linguagem Python
+Olá sou analista de testes e estou iniciando os estudos em Python
