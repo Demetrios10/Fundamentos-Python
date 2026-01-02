@@ -1,4 +1,4 @@
-# Programa Para Digitar Nome ou Botão x para sair 
+# Programa Para Digitar Nome Selecionar Botão x para sair 
 nome = ""
 
 while True:
