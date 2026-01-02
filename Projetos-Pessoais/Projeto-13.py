@@ -12,7 +12,7 @@ for i in range(5):
 # Classifica em ordem alfabetica 
 alunos.sort()
 
-# ordena em ordem alfabetica 
+# Ordena em ordem alfabetica 
 print(f'\nA Lista dos alunos do 3 ano em ordem alfabetica é: ')
 for aluno in alunos:
     print(aluno)
