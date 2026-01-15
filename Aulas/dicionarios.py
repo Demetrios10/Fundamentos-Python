@@ -14,8 +14,6 @@
 # elemento ['grupo'] = 'Deltas' # Trocando um elemento no dicionario 
 # print(elemento)
 
-
-
 nomes = {
 
     'nome 1':'Demetrios',
