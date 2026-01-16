@@ -6,7 +6,7 @@ numero_cartao = input("Digite o numero do seu cartão: ")
 match numero_cartao:
     case '0451'| '0562'|'9074'|'9354':
         print("seu cartão esta na lista")
-        if numero_cartao == '0451' or numero_cartao == '0562' or numero_cartao == '9074' or numero_cartao == '9354':
+        if numero_cartao == '0451'or numero_cartao =='0562'or numero_cartao =='9074'or numero_cartao =='9354':
             print(f'Seja bem vindo {numero_cartao} !!')
             print('vamos fazer o seu cadastro ?')
             fazer_cadastro = input('Digite [S]im ou [N]ão:')
