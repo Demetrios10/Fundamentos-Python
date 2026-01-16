@@ -4,7 +4,7 @@ print('INSCRIÇÃO DE CLIENTE EXCLUSIVO')
 while True:
  nome = input("Digite seu nome: ")
  if nome != "Demetrios":
-  print('O cliente não é esse tente novamente!!!!')
+  print('O cliente não esta na lista tente novamente!!!!')
   continue
  else:
   print(f'Seja bem vindo {nome} !!')
