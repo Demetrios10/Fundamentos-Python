@@ -15,7 +15,7 @@ match numero_cartao:
                nome_completo = input('Digite seu nome completo:')
                cpf = input('Digite seu cpf:')
                tel = input('Digite seu tel:')
-               print('Inscrição Realizada com Sucesso!!')
+               print('Cadastro Realizado com Sucesso!!')
             else:
              print('voce saiu do sistema!')
     case _:
