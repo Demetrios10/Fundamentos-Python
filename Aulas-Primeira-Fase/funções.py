@@ -39,7 +39,13 @@
 
 
 
-def nome_completo(a,b):
-    print(a + b)
-print('Demetrios','Alves')
+# def nome_completo(a,b):
+#     print(a + b)
+# print('Demetrios','Alves')
 
+def contar (num=11,caractere='+'):
+    for i in range(1,num):
+        print(caractere)
+
+if __name__ == '__main__':
+    contar(6,'@')
