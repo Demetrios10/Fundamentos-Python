@@ -1,8 +1,11 @@
 import time
 from selenium import webdriver # type: ignore
 
+from selenium import webdriver
 
-browser = webdriver.Chrome()
 
-browser.get("https://sicredi.qa.portaldocliente.fiserv.com/login?IsTimeout=True")
-time.sleep(5)
+driver = webdriver.Chrome()
+
+driver.get("http://selenium.dev")
+
+driver.quit()
