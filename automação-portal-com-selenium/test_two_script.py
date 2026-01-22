@@ -4,6 +4,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 import time
+import os
 
 # Inicializa o driver (ex: Chrome)
 driver = webdriver.Chrome()
@@ -24,14 +25,20 @@ senha.click()
 time.sleep(1)
 senha.send_keys("Bin@12345678" + Keys.INSERT)
 time.sleep(1)
+driver.save_screenshot("evidencia_1.png")
 
 entrar = driver.find_element(By.CLASS_NAME, "font-login")
 entrar.click()
 time.sleep(10)
+driver.save_screenshot("evidencia_2.png")
 
-acesso_rapido_antecipacao = driver.find_element(By.ID, "b10-AntecipacaoDiv2")
+acesso_rapido_antecipacao = driver.find_element(By.ID,"b10-AntecipacaoDiv2")
 acesso_rapido_antecipacao.click()
 time.sleep(15)
+driver.save_screenshot("evidencia_3.png")
 
-# 5 Salva o screenshot no diretório atual
+troca_estabelecimento = driver.find_element(By.ID,"b5-b3-$b2")
+troca_estabelecimento.click()
+time.sleep(15)
+
 driver.save_screenshot("evidencia_final.png")
