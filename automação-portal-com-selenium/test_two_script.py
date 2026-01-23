@@ -5,6 +5,13 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 import time
 import os
+from selenium.webdriver.chrome.service import Service
+
+# Define o nome da pasta
+pasta_evidencias = 'evidencias'
+# Cria a pasta se ela não existir
+if not os.path.exists(pasta_evidencias):
+    os.makedirs(pasta_evidencias)
 
 # Inicializa o driver (ex: Chrome)
 driver = webdriver.Chrome()
@@ -25,20 +32,30 @@ senha.click()
 time.sleep(1)
 senha.send_keys("Bin@12345678" + Keys.INSERT)
 time.sleep(1)
-driver.save_screenshot("evidencia_1.png")
+
+caminho_foto = os.path.join(pasta_evidencias, "evidencia_1.png")
+driver.save_screenshot(caminho_foto)
+print(f"Evidência salva em: {caminho_foto}")
 
 entrar = driver.find_element(By.CLASS_NAME, "font-login")
 entrar.click()
 time.sleep(10)
-driver.save_screenshot("evidencia_2.png")
+caminho_foto = os.path.join(pasta_evidencias, "evidencia_2.png")
+driver.save_screenshot(caminho_foto)
+print(f"Evidência salva em: {caminho_foto}")
 
 acesso_rapido_antecipacao = driver.find_element(By.ID,"b10-AntecipacaoDiv2")
 acesso_rapido_antecipacao.click()
 time.sleep(15)
-driver.save_screenshot("evidencia_3.png")
+caminho_foto = os.path.join(pasta_evidencias, "evidencia_3.png")
+driver.save_screenshot(caminho_foto)
+print(f"Evidência salva em: {caminho_foto}")
 
 troca_estabelecimento = driver.find_element(By.ID,"b5-b3-$b2")
 troca_estabelecimento.click()
 time.sleep(15)
 
-driver.save_screenshot("evidencia_final.png")
+caminho_foto = os.path.join(pasta_evidencias, "ultima_evidencia.png")
+driver.save_screenshot(caminho_foto)
+print(f"Evidência salva em: {caminho_foto}")
+
