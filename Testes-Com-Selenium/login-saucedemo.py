@@ -11,21 +11,21 @@ driver.get("https://www.saucedemo.com/")
 time.sleep(5)
 
 # preenchendo usuario
-cpf_cnpj = driver.find_element(By.ID,"user-name")
-cpf_cnpj.click()
+usuario = driver.find_element(By.ID,"user-name")
+usuario.click()
 time.sleep(1)
-cpf_cnpj.send_keys("standard_user" + Keys.INSERT)
+usuario.send_keys("standard_user" + Keys.INSERT)
 time.sleep(1)
 
 # preenchendo senha
-cpf_cnpj = driver.find_element(By.ID,"password")
-cpf_cnpj.click()
+senha = driver.find_element(By.ID,"password")
+senha.click()
 time.sleep(1)
-cpf_cnpj.send_keys("secret_sauce" + Keys.INSERT)
+senha.send_keys("secret_sauce" + Keys.INSERT)
 time.sleep(1)
 
-clicando_botao_login = driver.find_element(By.ID,"login-button")
-clicando_botao_login.click()
+botao_login = driver.find_element(By.ID,"login-button")
+botao_login.click()
 time.sleep(10)
 
 
