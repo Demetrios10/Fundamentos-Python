@@ -7,7 +7,7 @@ import time
 
 # Inicializa o driver (ex: Chrome)
 driver = webdriver.Chrome()
-driver.get("https://expert.cloud.brasil.adp.com/ipclogin/1/loginform.html?TYPE=33554433&REALMOID=06-000f0243-eb2e-117b-922c-11720acb0000&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-t8SOWIK%2fgJwbjEv4UX5gkf1B0Omto2OBtIjuIUUFMSwG89pqbtT%2bKprwK%2fbvYoHl&TARGET=-SM-http%3a%2f%2fexpert%2ecloud%2ebrasil%2eadp%2ecom%2fexpert%2f")
+driver.get("")
 time.sleep(10)
 
 # preenchendo usuario
@@ -15,11 +15,19 @@ cpf_cnpj = driver.find_element(By.ID,"login")
 cpf_cnpj.click()
 time.sleep(1)
 cpf_cnpj.send_keys("" + Keys.INSERT)
-time.sleep(1)
 
 # preenchendo senha
 cpf_cnpj = driver.find_element(By.ID,"login-pw")
 cpf_cnpj.click()
 time.sleep(1)
 cpf_cnpj.send_keys("" + Keys.INSERT)
-time.sleep(1)
+
+# clicando no Botão entrar 
+botao_entrar = driver.find_element(By.CLASS_NAME,"button_primary")
+botao_entrar.click()
+time.sleep(20)
+
+# clicando no Botão bater ponto 
+botao_bater_ponto = driver.find_element(By.CLASS_NAME,"")
+botao_bater_ponto.click()
+time.sleep(10)
