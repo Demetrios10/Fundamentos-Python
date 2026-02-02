@@ -8,27 +8,27 @@ import time
 # Inicializa o driver (ex: Chrome)
 driver = webdriver.Chrome()
 driver.get("https://www.saucedemo.com/")
-time.sleep(5)
+time.sleep(3)
 
 # preenchendo usuario
 usuario = driver.find_element(By.ID,"user-name")
 usuario.click()
-time.sleep(1)
 usuario.send_keys("standard_user" + Keys.INSERT)
-time.sleep(1)
 
-# preenchendo senha
-senha = driver.find_element(By.ID,"password")
-senha.click()
-time.sleep(1)
-senha.send_keys("secret_sauce" + Keys.INSERT)
-time.sleep(1)
+# preenchendo password
+password = driver.find_element(By.ID,"password")
+password.click()
+password.send_keys("secret_sauce" + Keys.INSERT)
 
-# clicando no botão login 
+# clicando no botão login
 botao_login = driver.find_element(By.ID,"login-button")
 botao_login.click()
 time.sleep(10)
 
+# clicando botão filtrar
+filtrar = driver.find_element(By.CLASS_NAME,"//select[@class=product_sort_container]")
+filtrar.click()
+time.sleep(5)
 
 
 
