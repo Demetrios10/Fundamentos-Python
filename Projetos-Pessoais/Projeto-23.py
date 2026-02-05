@@ -3,10 +3,10 @@ from matplotlib import pyplot as plt
 # graficos de barras 
 eixo_x_dias = [1,5,10,15,20,25,30]
 eixo_y_temp_max = [28,29,25,32,34,36,31]
-eixo_y_temp_min = [21,22,17,23,23,24,20]
+eixo_y_temp_min = [8,9,10,11,12,13,14]
 
 plt.title('Temperaturas máximas e mínimas')
-plt.xlabel('Data')
+plt.xlabel('Data atual')
 plt.ylabel('Temperatura')
 
 
