@@ -9,7 +9,7 @@ print("Boa noite , tudo bem ?") # aspas duplas
 print('Demetrios \"Alves\"') # caracter de escape
 print('"Demetrios" "Da Silva"') # aspas simples pode dentro de aspas duplas 
 
-
+print(123456789) # isso não é string 
 
 
 
