@@ -1,4 +1,4 @@
-# Jogo que adivinha as letras nas cores digitadas 
+# adivinhando as letras nas cores digitadas 
 
 cor = input('Digite uma cor: ')
 letra = input('Digite uma letra: ')
