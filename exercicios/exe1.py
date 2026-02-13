@@ -1,4 +1,4 @@
-# exercicio
+# exercicio simples de impressão das informações
 
 nome = 'Joao'
 sobrenome = 'Da Silva'
