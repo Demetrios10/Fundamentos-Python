@@ -9,4 +9,4 @@ try:
 
     numero = float
 except:
-    print('Não é um numero inteiro. ')
+    print('vc não digitou um numero inteiro. ')
