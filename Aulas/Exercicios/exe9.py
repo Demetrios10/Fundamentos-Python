@@ -1,12 +1,14 @@
 
 nome = input('Digite seu primeiro nome: ')
-quantidade_letras = int(input('Digite a quantidade de letras: '))
+tamanho_nome = len(nome)
 
-if quantidade_letras <= 4:
+if tamanho_nome <= 4 and tamanho_nome >= 1:
     print('Seu nome é curto')
-elif quantidade_letras >= 5 and quantidade_letras <= 6:
+elif tamanho_nome >= 5 and tamanho_nome <= 6:
     print('Seu nome é normal')
-elif quantidade_letras > 6:
+elif tamanho_nome > 6:
     print('Seu nome é muito grande')
+else:
+    print('Digite pelo menos uma letra!!')
   
     
