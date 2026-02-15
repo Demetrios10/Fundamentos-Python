@@ -12,7 +12,6 @@ id = Identidade
 # print(id(v2))
 
 
-
 condicao = True # True ou False
 passou_no_if = None
 
@@ -23,7 +22,6 @@ if condicao:
 else:
     print('Não faça algo')
     
-
 if passou_no_if is None:
     print('Não passou no if')
 else:
