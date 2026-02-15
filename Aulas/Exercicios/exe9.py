@@ -1,6 +1,6 @@
 
 nome = input('Digite seu primeiro nome: ')
-tamanho_nome = len(nome)
+tamanho_nome = len(nome) # mostra o tamanho da string
 
 if tamanho_nome <= 4 and tamanho_nome >= 1:
     print('Seu nome é curto')
