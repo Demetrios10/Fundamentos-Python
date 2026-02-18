@@ -1,4 +1,4 @@
-# Lista de Bebidas Favoritas em ordem alfabetica 
+# Listagem de bebidas favoritas em ordem alfabetica
 
 bebidas = []
 

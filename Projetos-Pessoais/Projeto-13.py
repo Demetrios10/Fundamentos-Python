@@ -1,4 +1,4 @@
-# Lista de alunos em ordem alfabetica 
+# Listagem de alunos em ordem alfabetica
 
 # Lista Vazia 
 alunos = []
