@@ -1,38 +1,33 @@
-# Tipo String
-nome_usuario = "Demetrios"
-print(nome_usuario)
+# variavel é um local reservado na memoria 
 
-# Tipo inteiro 
+nome = 'Demetrios' # string
+sobrenome = 'Alves Da Silva' # string 
+
+nome_completo = 'Marcia Santiago'
+
+numero = 1 # inteiro 
+salario = 17.900 # ponto flutuante 
 media = 0
-print(media)
 
-# declarando os dois tipos ao memso tempo 
-nome , idade = 'Demetrios' , 39
-print(nome,idade)
+nome1 = nome2 = nome3 = 'Deltas'
+nome , estado = 'Demetrios','Mora em SP'
 
-# Tipo Float
-n1 = n2 = n3 = n4 = 0.0
-
-# Tipo Logico 
-estado = True
-
-#Função type()
-# print(type(nome))
-# print(type(idade))
-# print(type(n1))
-# print(type(estado))
-# print(type(1 + 2j))
+# função type ()
+print(type(nome))
+print(type(estado))
+print(type(nome1))
+print(type(nome))
+print(type(nome_completo))
+print(type(sobrenome))
+print(type(numero))
+print(type(salario))
 
 
-# Função isinstance()
+# função isinstance()
 a = 10
-b = 'Sol'
+b = 'sol'
 
-# Verifica se as variaveis são do mesmo tipo 
-print(isinstance(b , (int, str)))
+print(isinstance(a,int)) # se avariavel for um int retorna true se não retorna false
+print(isinstance(b,str)) # se avariavel for um int retorna true se não retorna false
 
 
-a = 40 
-c = 3
-r = a * c
-print(r)
