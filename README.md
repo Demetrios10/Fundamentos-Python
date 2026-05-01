@@ -143,7 +143,7 @@ Fique à vontade para abrir uma issue ou pull request.
 ## 👤 Autor
 
 Demétrios
-LinkedIn: https://linkedin.com/in/seu-link
+LinkedIn: https://www.linkedin.com/in/demetriosalvess/)
 
 ---
 
