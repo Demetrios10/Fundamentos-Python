@@ -13,9 +13,15 @@ time.sleep(5)
 # clicando no botão enviar
 botao_enviar = driver.find_element(By.ID,"itemMenu_enviar")
 botao_enviar.click()
-time.sleep(5)
+time.sleep(3)
 
-# clicando no botão 
+# clicando no botão receber
 botao_receber = driver.find_element(By.ID, "itemMenu_receber")
 botao_receber.click()
-time.sleep(5)
+time.sleep(3)
+
+# clicando no botão comprar
+botao_comprar = driver.find_element(By.ID, "itemMenu_comprar")
+botao_comprar.click()
+time.sleep(3)
+
