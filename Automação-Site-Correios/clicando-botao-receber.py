@@ -10,4 +10,9 @@ driver = webdriver.Chrome()
 driver.get("https://www.correios.com.br/")
 time.sleep(5)
 
+# clicando no botão receber
+botao_receber = driver.find_element(By.ID, "itemMenu_receber")
+botao_receber.click()
+time.sleep(3)
+
 

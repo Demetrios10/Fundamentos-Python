@@ -10,4 +10,10 @@ driver = webdriver.Chrome()
 driver.get("https://www.correios.com.br/")
 time.sleep(5)
 
+# clicando no botão enviar
+botao_enviar = driver.find_element(By.ID,"itemMenu_enviar")
+botao_enviar.click()
+time.sleep(3)
+
+
 

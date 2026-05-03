@@ -10,4 +10,8 @@ driver = webdriver.Chrome()
 driver.get("https://www.correios.com.br/")
 time.sleep(5)
 
+# clicando no botão comprar
+botao_comprar = driver.find_element(By.ID, "itemMenu_comprar")
+botao_comprar.click()
+time.sleep(3)
 
