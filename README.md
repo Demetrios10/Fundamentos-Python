@@ -1,121 +1,25 @@
-# 🐍 Python - Projetos Práticos
+# 📘 Curso de Python
 
-Repositório com diversos projetos desenvolvidos durante meu aprendizado em Python.
-O objetivo é consolidar conceitos fundamentais e avançados através da prática, incluindo automação de testes com Selenium.
+Este repositório reúne meus estudos em Python, com foco em prática e evolução contínua.
 
----
+## 📚 Conteúdo
 
-## 📌 Sobre o projeto
-
-Este repositório reúne múltiplos scripts e aplicações pequenas, cada um focado em resolver um problema específico ou explorar uma funcionalidade da linguagem Python.
-
-Inclui:
-
+* Conceitos básicos da linguagem
 * Lógica de programação
+* Estruturas de controle (if, else, loops)
+* Funções
 * Manipulação de dados
-* Scripts utilitários
 
----
+## 🧪 Exercícios
 
-## 🧠 Tecnologias utilizadas
+Aqui estão diversos exercícios práticos para reforçar o aprendizado, incluindo:
 
-* Python 3.x
-* VS Code
-* Bibliotecas padrão do Python
+* Desafios de lógica
+* Problemas matemáticos
+* Pequenos projetos
+* Treinos de automação
 
----
+## 📄 README
 
-## ⚙️ Instalação
+Este arquivo tem como objetivo apresentar de forma clara a proposta do repositório: documentar minha jornada no aprendizado de Python por meio de exercícios e prática constante.
 
-Clone o repositório:
-
-```bash
-git clone https://github.com/seu-usuario/curso-python-projetos.git
-cd curso-python-projetos
-```
-
-Crie um ambiente virtual:
-
-```bash
-python -m venv venv
-```
-
-Ative o ambiente:
-
-* Windows:
-
-```bash
-venv\Scripts\activate
-```
-
-* Linux/Mac:
-
-```bash
-source venv/bin/activate
-```
-
-Instale as dependências:
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-## ▶️ Como executar os projetos
-
-Cada pasta contém um projeto independente.
-
-Exemplo:
-
-```bash
-cd nome-do-projeto
-python main.py
-```
-
----
-
-## 📂 Estrutura do projeto
-
-```bash
-📁 curso-python-projetos/
-├── 📁 projeto1/
-│   ├── main.py
-│
-├── 📁 projeto2/
-│   ├── main.py
-├── requirements.txt
-└── README.md
-```
-
----
-
-## 📌 Exemplos de projetos incluídos
-
-* ✅ Validação de dados
-* 🚧 Novos projetos sendo adicionados continuamente
-
----
-
-## 🎯 Objetivo
-
-Este repositório faz parte do meu desenvolvimento como profissional de tecnologia, com foco em:
-
-* Aprimorar lógica de programação
-* Construir um portfólio sólido em Python
-
----
-
-## 🤝 Contribuição
-
-Sugestões e melhorias são bem-vindas.
-Fique à vontade para abrir uma issue ou pull request.
-
----
-
-## 👤 Autor
-
-Demétrios
-LinkedIn: https://www.linkedin.com/in/demetriosalvess/
-
----
