@@ -1,4 +1,4 @@
-# 🐍 Curso Python - Projetos Práticos
+# 🐍 Python - Projetos Práticos
 
 Repositório com diversos projetos desenvolvidos durante meu aprendizado em Python.
 O objetivo é consolidar conceitos fundamentais e avançados através da prática, incluindo automação de testes com Selenium.
