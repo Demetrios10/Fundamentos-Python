@@ -10,6 +10,9 @@ resultado = numero_1 == numero_2
 print("Os Numeros são Iguais!!", resultado , "\n")
 
 
+# oiiiiiiii
+
+
 
 
 
