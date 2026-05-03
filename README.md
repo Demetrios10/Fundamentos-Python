@@ -14,15 +14,12 @@ Inclui:
 * Lógica de programação
 * Manipulação de dados
 * Scripts utilitários
-* Automação de tarefas
-* Testes automatizados com Selenium
 
 ---
 
 ## 🧠 Tecnologias utilizadas
 
 * Python 3.x
-* Selenium (automação de testes)
 * VS Code
 * Bibliotecas padrão do Python
 
@@ -78,23 +75,6 @@ python main.py
 
 ---
 
-## 🧪 Automação com Selenium
-
-Alguns projetos utilizam Selenium para automação de testes de interface (UI).
-
-Exemplo de execução:
-
-```bash
-python teste_selenium.py
-```
-
-⚠️ Pré-requisitos:
-
-* Ter o navegador instalado (Chrome, Edge, etc.)
-* WebDriver compatível com a versão do navegador
-
----
-
 ## 📂 Estrutura do projeto
 
 ```bash
@@ -104,10 +84,6 @@ python teste_selenium.py
 │
 ├── 📁 projeto2/
 │   ├── main.py
-│
-├── 📁 automacao_selenium/
-│   ├── teste_selenium.py
-│
 ├── requirements.txt
 └── README.md
 ```
@@ -116,9 +92,7 @@ python teste_selenium.py
 
 ## 📌 Exemplos de projetos incluídos
 
-* ✅ Scripts de automação
 * ✅ Validação de dados
-* ✅ Interação com páginas web (Selenium)
 * 🚧 Novos projetos sendo adicionados continuamente
 
 ---
@@ -128,7 +102,6 @@ python teste_selenium.py
 Este repositório faz parte do meu desenvolvimento como profissional de tecnologia, com foco em:
 
 * Aprimorar lógica de programação
-* Evoluir em automação de testes
 * Construir um portfólio sólido em Python
 
 ---
