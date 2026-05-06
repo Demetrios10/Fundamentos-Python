@@ -5,3 +5,5 @@ print(-10) # tipo inteiro negativo
 print(11.2) # tipo float
 
 print(type(10))
+print(type(-0))
+print(type(10.0))
