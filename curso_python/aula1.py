@@ -1,13 +1,9 @@
 # Comentarios em Python 
 
-
 print("voce pode usar comentarios em python em qualuqer lugar no seu codigo")
-
 # podendo usar na frente , abaixo do código e acima do mesmo
 
-
 print("se vc quiser pode usar tb o comentario de multip´las linhas")
-
 '''
 assim comentamos em varias linhas ao mesmo tempo usando 3 aspas simples ou duplas
 
@@ -15,7 +11,6 @@ assim comentamos em varias linhas ao mesmo tempo usando 3 aspas simples ou dupla
 
 print("A função print imprime uma mensagem em tela")
 # o comando print é usado para imprimir uma mensagem em tela
-
 
 print("Tb temos Docstrings para comentar nosso código")
 """ 
