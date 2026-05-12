@@ -1,5 +1,4 @@
-#presedencia de operadores
-
+#precedencia de operadores
 
 # exemplos de precedencia de operadores
 # a ordem de precedencia dos operadores é a seguinte:
@@ -22,4 +21,12 @@ print(conta)
 # pois a multiplicação tem precedencia sobre a adição e a subtração
 # , e a divisão tem precedencia sobre a adição e a subtração ,
 # e a exponenciação tem precedencia sobre a multiplicação e a divisão
+
+
+# o resultado é 59 , pois a multiplicação tem precedencia
+# sobre a adição e a subtração , e a exponenciação tem precedencia
+# sobre a multiplicação e a divisão , e a divisão inteira tem precedencia
+# sobre a adição e a subtração
+conta_rapida = 20 + 40 * 1 - 8 ** 1 // 3
+print("O resultado é de: " + str(conta_rapida))
 
