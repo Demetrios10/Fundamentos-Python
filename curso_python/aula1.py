@@ -16,3 +16,5 @@ print("Tb temos Docstrings para comentar nosso código")
 """
 vc pode usar para escrever notas ou para documentar o código usando 3 aspas duplas ou simples
 """
+
+print("Boa Tarde a todos")
