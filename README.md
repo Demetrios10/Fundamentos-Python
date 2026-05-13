@@ -1,25 +1,69 @@
-# 📘 Curso de Python
+# Estudos em Python
 
-Este repositório reúne meus estudos em Python, com foco em prática e evolução contínua.
+Repositório dedicado aos meus estudos de Python, lógica de programação e resolução de exercícios práticos.
 
-## 📚 Conteúdo
+## Visão geral
 
-* Conceitos básicos da linguagem
-* Lógica de programação
-* Estruturas de controle (if, else, loops)
-* Funções
-* Manipulação de dados
+Este repositório reúne práticas de fundamentos da linguagem Python. A ideia é registrar minha evolução por meio de exercícios, exemplos simples e pequenos projetos que reforçam raciocínio lógico e organização de código.
 
-## 🧪 Exercícios
+## Status do projeto
 
-Aqui estão diversos exercícios práticos para reforçar o aprendizado, incluindo:
+Em evolução.
 
-* Desafios de lógica
-* Problemas matemáticos
-* Pequenos projetos
-* Treinos de automação
+## Conteúdo estudado
 
-## 📄 README
+| Tema | Objetivo |
+| --- | --- |
+| Sintaxe básica | Entender a estrutura da linguagem |
+| Variáveis e tipos | Trabalhar com textos, números e valores booleanos |
+| Condicionais | Criar decisões com `if`, `elif` e `else` |
+| Repetições | Usar `for` e `while` para resolver problemas |
+| Funções | Reaproveitar código e organizar soluções |
+| Estruturas de dados | Praticar listas, dicionários e tuplas |
+| Arquivos | Evoluir para leitura e escrita de dados |
 
-Este arquivo tem como objetivo apresentar de forma clara a proposta do repositório: documentar minha jornada no aprendizado de Python por meio de exercícios e prática constante.
+## Estrutura sugerida
 
+```text
+Meu-Projeto/
+|-- exercicios/
+|-- projetos/
+|-- anotacoes/
+`-- README.md
+```
+
+## Como executar
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/Demetrios10/Meu-Projeto.git
+cd Meu-Projeto
+```
+
+Execute um arquivo Python:
+
+```bash
+python nome_do_arquivo.py
+```
+
+## Exemplos de prática
+
+- Exercícios de lógica
+- Problemas matemáticos simples
+- Manipulação de textos
+- Validação de entrada de dados
+- Pequenas automações
+- Mini projetos para fixação
+
+## Roadmap
+
+- Separar exercícios por tema
+- Criar uma pasta para mini projetos
+- Adicionar exemplos com listas e dicionários
+- Incluir exercícios com arquivos
+- Evoluir para automações simples com Python
+
+## Autor
+
+Demétrios Alves Da Silva
