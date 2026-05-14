@@ -7,6 +7,7 @@ nome = "Demetrios"
 sobrenome = "Alves da Silva"
 altura = 1.8
 cidade = "São Paulo"
+rua = "Nora Ney"
 
 nome_completo = f"{nome} {sobrenome}"
 
