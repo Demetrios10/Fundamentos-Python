@@ -25,4 +25,4 @@ linha_completa = (
 if __name__ == "__main__":
     print(linha_saudacao)
     print(linha_completa)
-    print(f"Moro em {cidade}.")
+    print(f"Moro em {cidade} na rua {rua}")
