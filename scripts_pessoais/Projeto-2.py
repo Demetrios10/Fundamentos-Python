@@ -1,7 +1,7 @@
-# Media de Notas Com Verificação de Faltas 
+# Media de Notas Com Verificação de Faltas
 
 nota1 = nota2 =  0.0
-media = 0.0 
+media = 0.0
 faltas = 0
 
 n1 = float(input("Digite a priemira nota: "))
