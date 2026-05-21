@@ -1,2 +1,4 @@
 nome = input('Qual o seu nome ?')
-print(f'O nome dele é {nome}')
+sobrenome = input('Qual o seu sobrenome ?')
+
+print(f'O nome dele é {nome} {sobrenome}')
