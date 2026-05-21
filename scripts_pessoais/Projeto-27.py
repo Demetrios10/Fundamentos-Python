@@ -14,5 +14,5 @@ while True:
     
   sair = input('Quer sair do sistema? [s]im: ').lower().startswith('s')
   if sair is True:
-   print('vc saiu!!') 
+   print('vc saiu!!')
    break
