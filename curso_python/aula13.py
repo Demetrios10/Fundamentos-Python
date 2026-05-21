@@ -4,12 +4,13 @@
 # Mais legível que concatenar com + e str().
 
 nome = "Demetrios"
-sobrenome = "Alves da Silva"
-altura = 1.80000
-cidade = "São Paulo"
+sobrenome = "Alves Da Silva"
+bairro = "Socorro"
 rua = "Nora Ney"
+numero = 40
 
-strings = 'nome: {} \nsobrenome: {} \naltura: {:.2f} \ncidade: {} \nrua: {} '.format(nome , sobrenome , altura , cidade , rua)
-print(strings)
+ficha_cadastral = 'O aluno {} {} mora no bairro: {} na rua: {} numero: {}'
+formato = ficha_cadastral.format(nome,sobrenome, bairro ,rua , numero)
+print(formato)
 
 
