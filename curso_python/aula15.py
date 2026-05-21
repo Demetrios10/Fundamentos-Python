@@ -4,12 +4,10 @@
 # elif = se não se
 
 
-entrada = input('Digite um número: ')
-if entrada.isdigit():
-    numero = int(entrada)
-    if numero > 5:
-        print('Número maior que 5')
-    elif numero == 5:
-        print('Número igual a 5')
-    else:
-        print('Número menor que 5')
+entrada = input('Digite sim ou não: ')
+if entrada == ('Sim') or entrada == ('sim'):
+    print('Você digitou Sim')
+elif entrada == ('Não') or entrada == ('não'):
+    print('Você digitou Não')
+else:
+    print('Você digitou algo diferente de Sim ou Não')
