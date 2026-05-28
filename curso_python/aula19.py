@@ -2,7 +2,7 @@
 # Operadores Logicos
 
 '''
-and 
+and
 '''
 
 entrada = input("Digite [S]im ou [N]ao: ")
