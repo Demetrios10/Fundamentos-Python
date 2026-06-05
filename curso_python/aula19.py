@@ -4,7 +4,7 @@
 #                      Not = Negacao
 
 entrada = input("Digite [S]im ou [N]ao: ")
-senha = input("Digite a sua Senha: ")
+senha = int(input("Digite a sua Senha: "))
 
 if entrada == "Sim" and senha == 95120:
     print("Credenciais validas!!")
