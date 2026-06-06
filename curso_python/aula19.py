@@ -1,7 +1,5 @@
 
 # Operadores Logicos = And = E
-#                      Or = Ou
-#                      Not = Negacao
 
 entrada = input("Digite [S]im ou [N]ao: ")
 senha = int(input("Digite a sua Senha: "))
