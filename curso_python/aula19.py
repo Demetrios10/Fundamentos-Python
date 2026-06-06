@@ -1,5 +1,5 @@
 
-# Operadores Logicos = And = E
+# Operador Logicos = And = E
 
 entrada = input("Digite [S]im ou [N]ao: ")
 senha = int(input("Digite a sua Senha: "))
