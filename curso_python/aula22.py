@@ -1,11 +1,10 @@
 
 # Operador Logico = in = em
 
-cor = input('Digite uma cor: ')
+nome = input('Digite seu nome: ')
+lista_nome = ['Maria', 'João', 'Pedro', 'Ana' , 'Carla']
 
-
-# se a cor digitada estiver na lista de cores, ela é válida
-if cor in ['vermelho', 'verde', 'azul']:
-    print('A cor digitada é válida!')
+if nome in lista_nome:
+    print('Nome encontrado!')
 else:
-    print('A cor digitada não é válida!')
+    print('Nome não encontrado!')
