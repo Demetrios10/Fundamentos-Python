@@ -1,5 +1,5 @@
 
-# Operador Logico = in = em
+# Operador = in = esta em
 
 nome = input('Digite seu nome: ')
 lista_nome = ['Maria', 'João', 'Pedro', 'Ana' , 'Carla']
