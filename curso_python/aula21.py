@@ -1,13 +1,11 @@
 
 # Operador Logico = Not = Não
 
-letra = input('Digite uma letra: ')
+senha = input('Digite a senha: ')
 
-# tratar os dados para evitar erros
-letra = letra.strip().lower()
-
-# a letra digitada não é "a"
-if not letra == 'a':
-    print('A letra digitada não é "a"')
+if not senha:
+    print('Você não digitou nada')
+elif senha == '123456':
+    print('Você digitou a senha correta')
 else:
-    print('A letra digitada é "a"')
+    print('Você digitou a senha incorreta')
