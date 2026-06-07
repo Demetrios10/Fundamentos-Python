@@ -5,6 +5,6 @@ entrada = input("Digite [S]im ou [N]ao: ")
 senha = int(input("Digite a sua Senha: "))
 
 if entrada == "Sim" and senha == 95120:
-    print("Credenciais validas!!")
+    print("Entrar")
 else:
-    print("Credenciais Invalidas!!")
+    print("Sair")
