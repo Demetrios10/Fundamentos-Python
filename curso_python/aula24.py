@@ -5,3 +5,4 @@ sobrenome = input("Digite seu sobrenome:")
 
 print(f"Ola, {nome} {sobrenome}!")
 print('Seja bem vindo!')
+print(f'Seu nome é {nome} e seu sobrenome é {sobrenome}.')
