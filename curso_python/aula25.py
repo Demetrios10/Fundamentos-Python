@@ -2,7 +2,7 @@
 
 
 nome = 'Demetrios'
-print(nome[3]) 
+print(nome[3])
 
 
 sobrenome = 'Alves da silva'
