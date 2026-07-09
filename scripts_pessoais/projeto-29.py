@@ -46,4 +46,4 @@ elif len(nome) >= 5 and len(nome) <= 6:
 elif len(nome) > 6:
     print('Seu nome é muito grande')
 else:
-    
+    print('Nome inválido')
