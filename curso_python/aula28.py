@@ -4,6 +4,8 @@
 
 
 
+V1 = 'a'
+V2 = 'b'
 
-
-
+print(id(V1))
+print(id(V2))
