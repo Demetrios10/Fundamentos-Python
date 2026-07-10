@@ -37,13 +37,20 @@ elif horario >= 18 and horario <= 23:
 '''
 
 # 3
-nome = input('Digite seu primeiro nome: ')
+try:
+    nome = input('Digite seu primeiro nome: ').strip()
 
-if len(nome) <= 4:
-    print('Seu nome é curto')
-elif len(nome) >= 5 and len(nome) <= 6:
-    print('Seu nome é normal')
-elif len(nome) > 6:
-    print('Seu nome é muito grande')
-else:
-    print('Nome inválido')
+    if not nome.isalpha():
+        raise ValueError('Digite apenas letras')
+
+    tamanho = len(nome)
+
+    if tamanho <= 4:
+        print('Seu nome é curto')
+    elif tamanho <= 6:
+        print('Seu nome é normal')
+    else:
+        print('Seu nome é muito grande')
+
+except ValueError as erro:
+    print(f'Erro: {erro}')
