@@ -4,4 +4,8 @@
 
 string = "Demetrios"
 
-print(string[3])
+print(string.capitalize())  # Demetrios
+print(string.count)
+print(string.lower())  # demetrios
+
+
