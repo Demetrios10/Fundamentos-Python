@@ -1,12 +1,7 @@
 # aula sobre while
 
-condição = True
+contador = 0
 
-while condição:
-    nome = input('Qual é o seu nome? ')
-    print(f'Olá {nome}!')
-
-    if nome == 'sair':
-        break
-
-print('Acabou')
+while contador < 10:
+    print(f'Esse numero {contador} é menor que 10:')
+    contador += 1
