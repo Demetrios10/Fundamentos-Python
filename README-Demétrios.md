@@ -27,8 +27,6 @@ Em evolução.
 ```text
 Meu-Projeto/
 |-- exercicios/
-|-- projetos/
-|-- anotacoes/
 `-- README.md
 ```
 
@@ -53,7 +51,6 @@ python nome_do_arquivo.py
 - Problemas matemáticos simples
 - Manipulação de textos
 - Validação de entrada de dados
-- Pequenas automações
 - Mini projetos para fixação
 
 ## Roadmap
