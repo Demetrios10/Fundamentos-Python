@@ -1,6 +1,10 @@
 # Fundamentos de Python
 
-33 aulas práticas de Python, organizadas por assunto e em sequência de estudo.
+**Python 3 · Lógica de programação · Estudos práticos**
+
+33 aulas práticas organizadas em uma trilha de seis temas, da sintaxe básica aos laços de repetição.
+
+[Explorar as aulas](curso_python/README.md) · [Como executar](#como-executar) · [Perfil do autor](https://github.com/Demetrios10)
 
 ## Conteúdo
 
@@ -29,7 +33,7 @@ Troque o caminho pelo exercício desejado. No Windows, você também pode usar `
 
 ## Organização
 
-Os arquivos foram agrupados em seis temas e numerados com dois dígitos. O conteúdo original das 33 aulas foi preservado. Os exemplos têm finalidade didática e incluem dados e senhas de demonstração.
+As aulas estão agrupadas em seis temas e numeradas com dois dígitos. Os exemplos têm finalidade didática e incluem dados e senhas de demonstração.
 
 ## Próximos estudos
 
