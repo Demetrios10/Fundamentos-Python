@@ -42,6 +42,10 @@ As aulas estão agrupadas em seis temas e numeradas com dois dígitos. Os exempl
 - Leitura e escrita de arquivos
 - Automação aplicada a QA
 
+## Contexto profissional
+
+Este repositório registra meus estudos de programação como Analista de Testes (QA), apoiando minha evolução em automação de testes. Minha experiência profissional abrange meios de pagamento, adquirência, serviços financeiros e seguros.
+
 ## Autor
 
 [Demétrios Alves Da Silva](https://github.com/Demetrios10)
