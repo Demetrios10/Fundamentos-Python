@@ -1,17 +1,16 @@
-# Flag (Bandeira) - Marcar um local
-# None = não valor
-# is e is not = é ou não é (tipo , valor , identidade)
-# id = identidade do objeto (local na memória)
+"""Aula 29: flags e None."""
 
-condicao = None
-passou_no_if = True
 
-if passou_no_if:
-    print('faça algo')
-else:
-    print('não faça algo')
+def main():
+    resultado = None
+    processar = True
+    if processar:
+        resultado = "Processamento concluído"
+    if resultado is None:
+        print("Ainda não há resultado.")
+    else:
+        print(resultado)
 
-if passou_no_if is None:
-    print('passou no if')
-else:
-    print('não passou no if')
+
+if __name__ == "__main__":
+    main()

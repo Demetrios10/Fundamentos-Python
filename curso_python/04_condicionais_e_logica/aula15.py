@@ -1,13 +1,15 @@
-# if , else , elif
-# if = se
-# else = se não
-# elif = se não se
+"""Aula 15: if, elif e else com entrada normalizada."""
 
 
-entrada = input('Digite sim ou não: ')
-if entrada == ('Sim') or entrada == ('sim'):
-    print('Você digitou Sim')
-elif entrada == ('Não') or entrada == ('não'):
-    print('Você digitou Não')
-else:
-    print('Você digitou algo diferente de Sim ou Não')
+def main():
+    entrada = input("Digite sim ou não: ").strip().casefold()
+    if entrada in ("sim", "s"):
+        print("Você digitou Sim")
+    elif entrada in ("não", "nao", "n"):
+        print("Você digitou Não")
+    else:
+        print("Resposta inválida. Digite sim ou não.")
+
+
+if __name__ == "__main__":
+    main()

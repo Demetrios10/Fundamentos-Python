@@ -1,9 +1,24 @@
-# exercicio de imc
+"""Aula 12: cálculo matemático de IMC, com validação de entrada."""
+import math
 
-nome = input("Digite o nome do paciente: ")
-altura = str(float(input("Digite a altura do paciente: ")))
-peso = str(float(input("Digite o peso do paciente: ")))
 
-imc = float(peso) / (float(altura) ** 2)
+def calcular_imc(peso, altura):
+    if not all(math.isfinite(v) and v > 0 for v in (peso, altura)):
+        raise ValueError("Peso e altura devem ser positivos e finitos.")
+    return peso / altura ** 2
 
-print("O nome do paciente é " + nome + " , \nsua altura é de " + str(altura) + " metros , \nseu peso é de " + str(peso) + " kg , \ne seu imc é de " + str(imc))
+
+def main():
+    nome = input("Digite o nome: ").strip()
+    try:
+        altura = float(input("Altura em metros: ").replace(",", "."))
+        peso = float(input("Peso em kg: ").replace(",", "."))
+        imc = calcular_imc(peso, altura)
+    except ValueError as erro:
+        print(f"Entrada inválida: {erro}")
+        return
+    print(f"{nome}: IMC calculado = {imc:.2f}")
+
+
+if __name__ == "__main__":
+    main()

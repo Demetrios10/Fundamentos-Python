@@ -1,11 +1,19 @@
-# Id A identidade de um elemento na memoria é dada pela função id()
-# que retorna um número inteiro único para cada objeto criado na memória.
-# Esse número é o endereço de memória do objeto.
+"""Aula 28: identidade e igualdade de objetos.
+
+id identifica um objeto enquanto ele existe; não é um endereço garantido
+em todas as implementações de Python.
+"""
 
 
+def main():
+    primeira_lista = [1, 2]
+    segunda_lista = [1, 2]
+    mesma_lista = primeira_lista
+    print(primeira_lista == segunda_lista)  # True: conteúdo igual.
+    print(primeira_lista is segunda_lista)  # False: objetos diferentes.
+    print(primeira_lista is mesma_lista)  # True: mesmo objeto.
+    print(id(primeira_lista), id(segunda_lista))
 
-V1 = 'a'
-V2 = 'b'
 
-print(id(V1))
-print(id(V2))
+if __name__ == "__main__":
+    main()

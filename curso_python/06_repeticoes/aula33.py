@@ -1,11 +1,19 @@
-# while com continue
+"""Exemplo independente de fundamentos de Python."""
 
-numero = 0
 
-while numero < 100:
-    numero += 1
+def main():
+    # while com continue
 
-    if numero == 40:
-        print('Não mostre o numero 40')
-        continue
-    print(numero)
+    numero = 0
+
+    while numero < 100:
+        numero += 1
+
+        if numero == 40:
+            print('Não mostre o numero 40')
+            continue
+        print(numero)
+
+
+if __name__ == "__main__":
+    main()

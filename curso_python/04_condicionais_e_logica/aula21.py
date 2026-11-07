@@ -1,11 +1,18 @@
+"""Exemplo independente de fundamentos de Python."""
 
-# Operador Logico = Not = Não
 
-senha = input('Digite a senha: ')
+def main():
+    # Operador Logico = Not = Não
 
-if not senha:
-    print('Você não digitou nada')
-elif senha == '123456':
-    print('Você digitou a senha correta')
-else:
-    print('Você digitou a senha incorreta')
+    senha = input('Digite a senha: ')
+
+    if not senha:
+        print('Você não digitou nada')
+    elif senha == '123456':
+        print('Você digitou a senha correta')
+    else:
+        print('Você digitou a senha incorreta')
+
+
+if __name__ == "__main__":
+    main()

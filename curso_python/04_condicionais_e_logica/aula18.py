@@ -1,28 +1,30 @@
-# Opredaores de Comparação (relacionais)
-
-'''
-> maior
-< menor
->= maior ou igual
-<= menor ou igual
-== igual
-!= diferente
-'''
+"""Exemplo independente de fundamentos de Python."""
 
 
-print(2 > 10)
-print(10 < 200)
-print(1000 >= 1000)
-print(200 <= 20)
-print(10 == 10)
-print("Demetrios" != 'Deltas')
+def main():
+    # Opredaores de Comparação (relacionais)
+
+    '''
+    > maior
+    < menor
+    >= maior ou igual
+    <= menor ou igual
+    == igual
+    != diferente
+    '''
 
 
-print('Deltas' == 'Deltassss')
-print('nome' != 'Nomes')
+    print(2 > 10)
+    print(10 < 200)
+    print(1000 >= 1000)
+    print(200 <= 20)
+    print(10 == 10)
+    print("Demetrios" != 'Deltas')
 
 
+    print('Deltas' == 'Deltassss')
+    print('nome' != 'Nomes')
 
 
-
-
+if __name__ == "__main__":
+    main()

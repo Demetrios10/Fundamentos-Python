@@ -1,13 +1,21 @@
-# Tipos de dados
+"""Exemplo independente de fundamentos de Python."""
 
-print(1234) # isso é um numero
 
-print('Demetrios') # isso é uma string com aspas simples
+def main():
+    # Tipos de dados
 
-print("Alves Da Silva") # isso é uma string com aspas duplas
+    print(1234) # isso é um numero
 
-print(1 , "Deltas") # esse é um numero e uma string juntos , separados por uma virgula
+    print('Demetrios') # isso é uma string com aspas simples
 
-print("Demetrios Alves Da Silva")
+    print("Alves Da Silva") # isso é uma string com aspas duplas
 
-# \ para caracteres de escape
+    print(1 , "Deltas") # esse é um numero e uma string juntos , separados por uma virgula
+
+    print("Demetrios Alves Da Silva")
+
+    # \ para caracteres de escape
+
+
+if __name__ == "__main__":
+    main()

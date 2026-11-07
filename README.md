@@ -35,6 +35,18 @@ Troque o caminho pelo exercício desejado. No Windows, você também pode usar `
 
 As aulas estão agrupadas em seis temas e numeradas com dois dígitos. Os exemplos têm finalidade didática e incluem dados e senhas de demonstração.
 
+## Melhorias e verificações
+
+As 33 aulas podem ser importadas sem imprimir ou pedir dados; a execução acontece em `main()`. Foram corrigidos exemplos de precedência, conversão, identidade, strings e radar. As aulas interativas de maior risco tratam entradas inválidas e números com vírgula.
+
+Execute as verificações na raiz do projeto, sem dependências externas:
+
+```bash
+python -m unittest discover -s tests -v
+```
+
+A suíte executa as 33 aulas com dados de exemplo, verifica importações sem efeitos e cobre entradas inválidas e resultados conhecidos. Consulte [o relatório](evidencias/RELATORIO.md).
+
 ## Próximos estudos
 
 - Funções e reaproveitamento de código

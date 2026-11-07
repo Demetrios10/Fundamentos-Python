@@ -1,0 +1,15 @@
+test_33_aulas_executam (test_aulas.TestAulas.test_33_aulas_executam) ... ok
+test_conversao_com_virgula_e_erro (test_aulas.TestAulas.test_conversao_com_virgula_e_erro) ... ok
+test_imc_invalido_nao_encerra_com_excecao (test_aulas.TestAulas.test_imc_invalido_nao_encerra_com_excecao) ... ok
+test_imc_rejeita_zero_negativos_e_nao_finitos (test_aulas.TestAulas.test_imc_rejeita_zero_negativos_e_nao_finitos) ... ok
+test_importar_nao_imprime_nem_pede_entrada (test_aulas.TestAulas.test_importar_nao_imprime_nem_pede_entrada) ... ok
+test_precedencia_corrigida (test_aulas.TestAulas.test_precedencia_corrigida) ... ok
+test_rejeita_nao_letras (test_aulas.TestAulas.test_rejeita_nao_letras) ... ok
+test_senha_textual_nao_causa_erro (test_aulas.TestAulas.test_senha_textual_nao_causa_erro) ... ok
+test_sim_abreviada_e_normalizada (test_aulas.TestAulas.test_sim_abreviada_e_normalizada) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 10.623s
+
+OK
+

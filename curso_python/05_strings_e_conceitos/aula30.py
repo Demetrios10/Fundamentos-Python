@@ -1,11 +1,13 @@
-# tipos built-in
-
-# tipos imutáveis: int, float, bool, str, tuple
-
-string = "Demetrios"
-
-print(string.capitalize())  # Demetrios
-print(string.count)
-print(string.lower())  # demetrios
+"""Aula 30: métodos de strings retornam novos valores."""
 
 
+def main():
+    texto = "demetrios"
+    print(texto.capitalize())
+    print(texto.count("e"))
+    print(texto.upper())
+    print(texto)  # O texto original permanece igual.
+
+
+if __name__ == "__main__":
+    main()
