@@ -1,5 +1,7 @@
 # Fundamentos de Python
 
+[Estudo de caso](docs/PORTFOLIO.md) · [Portfólio do autor](https://github.com/Demetrios10/Demetrios10/blob/main/PORTFOLIO.md)
+
 **Python 3 · Lógica de programação · Aprendizado aplicado a QA**
 
 Trilha de 33 aulas independentes, organizada em seis temas. O projeto reúne exemplos executáveis, tratamento de entradas e verificações automatizadas para apoiar a evolução em programação.
