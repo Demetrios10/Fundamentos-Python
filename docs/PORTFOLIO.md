@@ -31,4 +31,4 @@ São exercícios didáticos, com dados fictícios. A suíte não cobre todas as 
 
 Adicionar estudos de funções reutilizáveis, coleções e arquivos, com novos exemplos e verificações proporcionais ao comportamento introduzido.
 
-Revisão: 09/11/2026.
+Revisão: 16/11/2026. Nova execução: nove testes aprovados; consulte [a revisão atual](../evidencias/REVISAO-2026-11-16.md).

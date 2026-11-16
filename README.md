@@ -41,7 +41,7 @@ Na raiz do repositório:
 python -m unittest discover -s tests -v
 ```
 
-O [relatório de 07/11/2026](evidencias/RELATORIO.md) registra **nove testes aprovados**, incluindo execução das 33 aulas com entradas de exemplo e importação sem efeitos colaterais. Outras verificações cobrem entradas inválidas e resultados conhecidos. Isso não representa cobertura de todas as combinações de entrada.
+A [revisão de 16/11/2026](evidencias/REVISAO-2026-11-16.md) confirmou **nove testes aprovados**, incluindo execução das 33 aulas com entradas de exemplo e importação sem efeitos colaterais. Outras verificações cobrem entradas inválidas e resultados conhecidos. Isso não representa cobertura de todas as combinações de entrada.
 
 | Recurso | Finalidade |
 |---|---|
@@ -65,4 +65,8 @@ Expandir os estudos com funções reutilizáveis, coleções, arquivos e aplica�
 
 [Automação web com Selenium](https://github.com/Demetrios10/Automacao-Selenium-Python) · [Perfil do autor](https://github.com/Demetrios10) · [LinkedIn](https://www.linkedin.com/in/demetriosalvess)
 
-**Autor:** Demétrios Alves da Silva. Projeto de estudo, revisado documentalmente em 09/11/2026.
+**Autor:** Demétrios Alves da Silva. Projeto de estudo, revisado e validado em 16/11/2026.
+
+## Revisão e manutenção
+
+[Revisão de 16/11/2026](evidencias/REVISAO-2026-11-16.md): resultados, mudanças e pendências. Os resultados históricos são preservados; o estado de cada nova execução pode ser consultado na aba **Actions**.
