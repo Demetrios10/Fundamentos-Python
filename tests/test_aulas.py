@@ -16,6 +16,11 @@ def executar(numero, entrada=""):
 
 
 class TestAulas(unittest.TestCase):
+    def test_numeracao_das_aulas_e_contigua_e_sem_duplicatas(self):
+        numeros = sorted(int(caminho.stem.removeprefix("aula")) for caminho in AULAS)
+        self.assertEqual(numeros, list(range(1, 34)))
+        self.assertEqual(len(set(AULAS)), 33)
+
     def test_33_aulas_executam(self):
         entradas = {12: "Pessoa\n1,75\n70\n", 14: "Pessoa\nTeste\n",
                     15: "sim\n", 17: "Demetrios\n", 19: "s\n95120\n",
