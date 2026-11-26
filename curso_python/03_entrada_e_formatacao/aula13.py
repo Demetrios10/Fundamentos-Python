@@ -5,7 +5,8 @@ def main():
     nome = "Pessoa"
     sobrenome = "Exemplo"
     cidade = "São Paulo"
-    print("Nome: {} {}. Cidade: {}.".format(nome, sobrenome, cidade))
+    # str.format é mantido de propósito, para comparação com a f-string abaixo.
+    print("Nome: {} {}. Cidade: {}.".format(nome, sobrenome, cidade))  # noqa: UP032
     print(f"Nome: {nome} {sobrenome}. Cidade: {cidade}.")
 
 

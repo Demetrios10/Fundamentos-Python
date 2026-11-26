@@ -1,18 +1,17 @@
-"""Exemplo independente de fundamentos de Python."""
+"""Aula 17: uso do debugger para acompanhar o código linha por linha."""
+
+NOME_ESPERADO = "Demetrios"
 
 
 def main():
-    # debugger
-    # serve para verificação do código linha por linha
+    nome = input("DIGITE SEU NOME: ").strip()
 
-    nome = input('DIGITE SEU NOME: ').strip()
-
-    if nome == '':
-        print('Nenhum nome digitado')
-    elif nome == 'Demetrios':
-        print('Esse nome esta correto!!')
+    if not nome:
+        print("Nenhum nome digitado")
+    elif nome == NOME_ESPERADO:
+        print("Esse nome esta correto!!")
     else:
-        print('Nome diferente do esperado!!')
+        print("Nome diferente do esperado!!")
 
 
 if __name__ == "__main__":

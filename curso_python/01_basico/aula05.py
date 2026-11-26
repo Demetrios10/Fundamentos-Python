@@ -1,17 +1,14 @@
-"""Exemplo independente de fundamentos de Python."""
+"""Aula 05: tipos bool e None."""
 
 
 def main():
-    # Tipo booleano
+    print(True)
+    print(False)
+    print(None)
 
-    print(True) # tipo booleano verdadeiro
-    print(False) # tipo booleano falso
-
-    # Tipo None
-    print(None) # tipo None
-
-    print(10 == 10) # tipo booleano verdadeiro
-    print(10 == 15) # tipo booleano falso
+    # Comparações produzem valores booleanos.
+    print(10 == 10)  # True
+    print(10 == 15)  # False
 
 
 if __name__ == "__main__":

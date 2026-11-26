@@ -1,0 +1,9 @@
+line-length = 100
+target-version = "py312"
+
+[lint]
+select = ["E", "F", "W", "I", "B", "UP", "N", "SIM", "RET"]
+
+[lint.per-file-ignores]
+# Aulas didáticas: comparações literais e encadeamentos são o conteúdo ensinado.
+"curso_python/**" = ["E501", "UP003"]

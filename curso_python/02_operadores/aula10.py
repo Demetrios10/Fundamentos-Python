@@ -1,19 +1,15 @@
-"""Exemplo independente de fundamentos de Python."""
+"""Aula 10: concatenação (+) e repetição (*) de strings."""
 
 
 def main():
-    # concatenação e repetição com operadores aritméticos
+    concatenacao = "D" + "e" + "m" + "e" + "t" + "r" + "i" + "o" + "s"
+    print(concatenacao)
 
+    letra_a_dez_vezes = "A" * 10
+    print(letra_a_dez_vezes)
 
-    # isso é uma concatenação de strings , onde o operador + é utilizado para juntar as strings
-    concatenação = "D" + "e" + "m" + "e" + "t" + "r" + "i" + "o" + "s"
-    print(concatenação)
-
-    a_letra_A_dez_vezes = "A" * 10
-    print(a_letra_A_dez_vezes)
-
-    tres_vezes_Demetrios = 3 * "Demetrios"
-    print(tres_vezes_Demetrios)
+    demetrios_tres_vezes = 3 * "Demetrios"
+    print(demetrios_tres_vezes)
 
 
 if __name__ == "__main__":

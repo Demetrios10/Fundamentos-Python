@@ -1,13 +1,13 @@
-"""Exemplo independente de fundamentos de Python."""
+"""Aula 31: laço while."""
+
+LIMITE = 10
 
 
 def main():
-    # aula sobre while
-
     contador = 0
 
-    while contador < 10:
-        print(f'Esse numero {contador} é menor que 10:')
+    while contador < LIMITE:
+        print(f"Esse numero {contador} é menor que {LIMITE}:")
         contador += 1
 
 

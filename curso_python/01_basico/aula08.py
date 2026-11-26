@@ -1,9 +1,9 @@
-"""Exemplo independente de fundamentos de Python."""
+"""Aula 08: exercício de declaração e atribuição de variáveis."""
+
+IDADE_MINIMA_MAIORIDADE = 18
 
 
 def main():
-    # exercicio de variaveis , declaracão e atribuição de variaveis
-
     nome = "Demetrios"
     sobrenome = "Alves Da Silva"
     idade = 39
@@ -11,7 +11,7 @@ def main():
     altura_em_metros = 1.75
     cidade_natal = "São Paulo"
     nome_dos_pais = "Valquiria e Antonio"
-    maior_de_idade = idade >= 18
+    maior_de_idade = idade >= IDADE_MINIMA_MAIORIDADE
     nome_carro_favorito = "Porsche 911"
     comida_favorita = "Pizza"
     cor_favorita = "Azul"

@@ -1,20 +1,12 @@
-"""Exemplo independente de fundamentos de Python."""
+"""Aula 03: tipos de dados básicos (números e strings)."""
 
 
 def main():
-    # Tipos de dados
-
-    print(1234) # isso é um numero
-
-    print('Demetrios') # isso é uma string com aspas simples
-
-    print("Alves Da Silva") # isso é uma string com aspas duplas
-
-    print(1 , "Deltas") # esse é um numero e uma string juntos , separados por uma virgula
-
+    print(1234)  # número
+    print("Demetrios")  # string com aspas simples ou duplas: o resultado é igual
+    print("Alves Da Silva")
+    print(1, "Deltas")  # número e string separados por vírgula
     print("Demetrios Alves Da Silva")
-
-    # \ para caracteres de escape
 
 
 if __name__ == "__main__":
