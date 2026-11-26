@@ -1,6 +1,6 @@
 # Fundamentos de Python
 
-[Estudo de caso](docs/PORTFOLIO.md) · [Portfólio do autor](https://github.com/Demetrios10/Demetrios10/blob/main/PORTFOLIO.md)
+[Estudo de caso](docs/PORTFOLIO.md)
 
 **Python 3 · Lógica de programação · Aprendizado aplicado a QA**
 
@@ -61,12 +61,8 @@ A [revisão de 16/11/2026](evidencias/REVISAO-2026-11-16.md) confirmou **nove te
 
 Expandir os estudos com funções reutilizáveis, coleções, arquivos e aplicações de programação ao contexto de QA. Esses temas são objetivos de evolução, não módulos adicionais já entregues nesta trilha.
 
-## Outros projetos e contato
+## Revisão e autoria
 
-[Automação web com Selenium](https://github.com/Demetrios10/Automacao-Selenium-Python) · [Perfil do autor](https://github.com/Demetrios10) · [LinkedIn](https://www.linkedin.com/in/demetriosalvess)
+Última revisão registrada em [16/11/2026](evidencias/REVISAO-2026-11-16.md). O resultado de cada nova execução fica na aba **Actions**.
 
-**Autor:** Demétrios Alves da Silva. Projeto de estudo, revisado e validado em 16/11/2026.
-
-## Revisão e manutenção
-
-[Revisão de 16/11/2026](evidencias/REVISAO-2026-11-16.md): resultados, mudanças e pendências. Os resultados históricos são preservados; o estado de cada nova execução pode ser consultado na aba **Actions**.
+**Demétrios Alves da Silva** · QA Analyst · [Portfólio](https://github.com/Demetrios10/Demetrios10/blob/main/PORTFOLIO.md) · [LinkedIn](https://www.linkedin.com/in/demetriosalvess)
