@@ -1,9 +1,10 @@
 """Aula 27: constantes e condições de um radar simplificado."""
 
+LIMITE_VELOCIDADE = 60
+POSICAO_RADAR = 150
+
 
 def main():
-    LIMITE_VELOCIDADE = 60
-    POSICAO_RADAR = 150
     velocidade = 200
     posicao_carro = 200
     # Neste exercício, só verificamos o carro exatamente na posição do radar.

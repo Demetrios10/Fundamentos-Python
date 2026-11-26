@@ -1,21 +1,17 @@
-"""Exemplo independente de fundamentos de Python."""
+"""Aula 25: índices e fatiamento de strings."""
 
 
 def main():
-    # indices em python
-
-
-    nome = 'Demetrios'
+    nome = "Demetrios"
     print(nome[3])
 
-
-    sobrenome = 'Alves da silva'
+    sobrenome = "Alves da silva"
     print(sobrenome[4])
     print(sobrenome[0:3])
     print(sobrenome[2:5])
-    print(len(sobrenome)) # conta os caracteres da string
-    print(sobrenome[0:9:2]) # o terceiro número é o passo, ou seja, ele vai pegar um caractere a cada 2 caracteres
-    print(sobrenome[::-1])# o primeiro número é o início, o segundo é o fim e o terceiro é o passo, ou seja, ele vai pegar um caractere em ordem inversa
+    print(len(sobrenome))  # quantidade de caracteres
+    print(sobrenome[0:9:2])  # [início:fim:passo] — um caractere a cada dois
+    print(sobrenome[::-1])  # passo negativo percorre a string ao contrário
 
 
 if __name__ == "__main__":

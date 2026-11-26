@@ -1,24 +1,18 @@
-"""Exemplo independente de fundamentos de Python."""
+"""Aula 07: variáveis armazenam valores para reutilização.
+
+Use nomes significativos para facilitar a leitura do código.
+"""
 
 
 def main():
-    # variaveis
-    # variaveis são usadas para armazenar valores e podem
-    # ser usadas para realizar operações matematicas ou para exibir informações na tela
-
-
     nome_completo = "Demetrios Alves Da Silva"
     print(nome_completo)
 
     soma_dois_numeros = 10 + 20
     print(soma_dois_numeros)
 
-    # isso é possível , pois estamos concatenando uma string com outra string ,
-    # usando a função str() para converter o numero inteiro em uma string
+    # str() converte o número para que ele possa ser concatenado ao texto.
     print(nome_completo + " tem " + str(soma_dois_numeros) + " anos")
-
-    # sempre use nomes de variaveis significativos para
-    # facilitar a leitura do código e evitar confusões
 
     nome = "Demetrios"
     idade = 39

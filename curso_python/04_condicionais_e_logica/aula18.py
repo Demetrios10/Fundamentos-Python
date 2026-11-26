@@ -1,29 +1,22 @@
-"""Exemplo independente de fundamentos de Python."""
+"""Aula 18: operadores de comparação (relacionais).
+
+>  maior            <  menor
+>= maior ou igual   <= menor ou igual
+== igual            != diferente
+"""
 
 
 def main():
-    # Opredaores de Comparação (relacionais)
+    # Comparações entre literais são intencionais: o objetivo é ver o resultado.
+    print(2 > 10)  # noqa: PLR0133
+    print(10 < 200)  # noqa: PLR0133
+    print(1000 >= 1000)  # noqa: PLR0133
+    print(200 <= 20)  # noqa: PLR0133
+    print(10 == 10)  # noqa: PLR0133
+    print("Demetrios" != "Deltas")  # noqa: PLR0133
 
-    '''
-    > maior
-    < menor
-    >= maior ou igual
-    <= menor ou igual
-    == igual
-    != diferente
-    '''
-
-
-    print(2 > 10)
-    print(10 < 200)
-    print(1000 >= 1000)
-    print(200 <= 20)
-    print(10 == 10)
-    print("Demetrios" != 'Deltas')
-
-
-    print('Deltas' == 'Deltassss')
-    print('nome' != 'Nomes')
+    print("Deltas" == "Deltassss")  # noqa: PLR0133
+    print("nome" != "Nomes")  # noqa: PLR0133
 
 
 if __name__ == "__main__":
